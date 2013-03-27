@@ -9,9 +9,11 @@ kantan doesn't trash the ANSI colour codes, making it work with your console pro
 kantan comes with a modified version of base16's default scheme, modified to conform to the ANSI codes.
 
 Palette:
+
 ![default scheme palette preview](http://i.imgur.com/LUOXy3V.png)
 
 xterm:
+
 ![default scheme xterm preview](http://i.imgur.com/m2YFQep.png)
 
 
