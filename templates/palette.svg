@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="528px" height="128px">
+	<rect width="528" height="128" style="fill:#${hex[16]}" />
+	<rect x="16" y="16" width="48" height="48" style="fill:#${hex[0]}" />
+	<rect x="80" y="16" width="48" height="48" style="fill:#${hex[1]}" />
+	<rect x="144" y="16" width="48" height="48" style="fill:#${hex[2]}" />
+	<rect x="208" y="16" width="48" height="48" style="fill:#${hex[3]}" />
+	<rect x="272" y="16" width="48" height="48" style="fill:#${hex[4]}" />
+	<rect x="336" y="16" width="48" height="48" style="fill:#${hex[5]}" />
+	<rect x="400" y="16" width="48" height="48" style="fill:#${hex[6]}" />
+	<rect x="464" y="16" width="48" height="48" style="fill:#${hex[7]}" />
+	<rect x="16" y="64" width="48" height="48" style="fill:#${hex[8]}" />
+	<rect x="80" y="64" width="48" height="48" style="fill:#${hex[9]}" />
+	<rect x="144" y="64" width="48" height="48" style="fill:#${hex[10]}" />
+	<rect x="208" y="64" width="48" height="48" style="fill:#${hex[11]}" />
+	<rect x="272" y="64" width="48" height="48" style="fill:#${hex[12]}" />
+	<rect x="336" y="64" width="48" height="48" style="fill:#${hex[13]}" />
+	<rect x="400" y="64" width="48" height="48" style="fill:#${hex[14]}" />
+	<rect x="464" y="64" width="48" height="48" style="fill:#${hex[15]}" />
+</svg>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ansi 0 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[0]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[0]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[0]}</real>
+	</dict>
+	<key>Ansi 1 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[1]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[1]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[1]}</real>
+	</dict>
+	<key>Ansi 2 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[2]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[2]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[2]}</real>
+	</dict>
+	<key>Ansi 3 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[3]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[3]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[3]}</real>
+	</dict>
+	<key>Ansi 4 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[4]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[4]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[4]}</real>
+	</dict>
+	<key>Ansi 5 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[5]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[5]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[5]}</real>
+	</dict>
+	<key>Ansi 6 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[6]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[6]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[6]}</real>
+	</dict>
+	<key>Ansi 7 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[7]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[7]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[7]}</real>
+	</dict>
+	<key>Ansi 8 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[8]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[8]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[8]}</real>
+	</dict>
+	<key>Ansi 9 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[9]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[9]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[9]}</real>
+	</dict>
+	<key>Ansi 10 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[10]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[10]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[10]}</real>
+	</dict>
+	<key>Ansi 11 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[11]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[11]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[11]}</real>
+	</dict>
+	<key>Ansi 12 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[12]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[12]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[12]}</real>
+	</dict>
+	<key>Ansi 13 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[13]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[13]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[13]}</real>
+	</dict>
+	<key>Ansi 14 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[14]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[14]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[14]}</real>
+	</dict>
+	<key>Ansi 15 Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[15]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[15]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[15]}</real>
+	</dict>
+	<key>Background Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[16]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[16]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[16]}</real>
+	</dict>
+	<key>Bold Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[15]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[15]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[15]}</real>
+	</dict>
+	<key>Cursor Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[7]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[7]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[7]}</real>
+	</dict>
+	<key>Cursor Text Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[0]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[0]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[0]}</real>
+	</dict>
+	<key>Foreground Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[7]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[7]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[7]}</real>
+	</dict>
+	<key>Selected Text Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[15]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[15]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[15]}</real>
+	</dict>
+	<key>Selection Color</key>
+	<dict>
+		<key>Blue Component</key>
+		<real>${srgb_b[8]}</real>
+		<key>Green Component</key>
+		<real>${srgb_g[8]}</real>
+		<key>Red Component</key>
+		<real>${srgb_r[8]}</real>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,37 @@
+! kantan Xresources template
+*.foreground: #${hex[7]}
+*.background: #${hex[16]}
+*.cursorColor: #${hex[7]}
+
+! Black / Grey
+*.color0: #${hex[0]}
+*.color8: #${hex[8]}
+
+! Red / Bright Red
+*.color1: #${hex[1]}
+*.color9: #${hex[9]}
+
+! Green / Bright Green
+*.color2: #${hex[2]}
+*.color10: #${hex[10]}
+
+! Orange / Yellow
+*.color3: #${hex[3]}
+*.color11: #${hex[11]}
+
+! Blue / Bright Blue
+*.color4: #${hex[4]}
+*.color12: #${hex[12]}
+
+! Magenta / Bright Magenta
+*.color5: #${hex[5]}
+*.color13: #${hex[13]}
+
+! Cyan / Bright Cyan
+*.color6: #${hex[6]}
+*.color14: #${hex[14]}
+
+! Light Grey / White
+*.color7: #${hex[7]}
+*.color15: #${hex[15]}
+

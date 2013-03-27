@@ -1,0 +1,37 @@
+# kantan default colour scheme
+
+# Background
+hex[16]=151515
+
+# Black / Grey
+hex[0]=202020
+hex[8]=606060
+
+# Red / Bright Red
+hex[1]=993a3b
+hex[9]=c25e5f
+
+# Green / Bright Green
+hex[2]=82994f
+hex[10]=9bb26a
+
+# Orange / Yellow
+hex[3]=d28445
+hex[11]=f4bf77
+
+# Blue / Bright Blue
+hex[4]=5994ad
+hex[12]=7baabd
+
+# Magenta / Bright Magenta
+hex[5]=a06594
+hex[13]=b485aa
+
+# Cyan / Bright Cyan
+hex[6]=64aca0
+hex[14]=86beb4
+
+# Light Grey / White
+hex[7]=d0d0d0
+hex[15]=f5f5f5
+

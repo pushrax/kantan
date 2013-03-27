@@ -1,0 +1,50 @@
+#!/bin/bash
+# kantan - simple colour scheming (https://github.com/pushrax/kantan)
+# Justin Li (http://j-li.net)
+# MIT licensed
+
+declare -A hex
+
+if [ -z "$1" ]; then
+	scheme="schemes/default"
+else
+	scheme="$1"
+fi
+
+if [ -f $scheme ]; then
+	echo "Using scheme: $scheme"
+	. $scheme
+else
+	echo "Missing scheme file: $scheme"
+	exit
+fi	
+
+declare -A rgb_r rgb_b rgb_g srgb_r srgb_g srgb_b
+
+for i in "${!hex[@]}"; do
+	# Generate rgb equivalents
+	rgb=$(printf "%d;%d;%d" 0x${hex[$i]:0:2} 0x${hex[$i]:2:2} 0x${hex[$i]:4:2})
+	rgb=(${rgb//;/ })
+	rgb_r[$i]=${rgb[0]}
+	rgb_g[$i]=${rgb[1]}
+	rgb_b[$i]=${rgb[2]}
+
+	# Generate srgb equivalents
+	srgb_r[$i]=$(awk -vx=${rgb_r[$i]} "BEGIN{printf(\"%.18f\", x/255.0)}")
+	srgb_g[$i]=$(awk -vx=${rgb_g[$i]} "BEGIN{printf(\"%.18f\", x/255.0)}")
+	srgb_b[$i]=$(awk -vx=${rgb_b[$i]} "BEGIN{printf(\"%.18f\", x/255.0)}")
+done
+
+
+for file in templates/*; do
+	output=output/${file##*/}
+	echo "Processing $file => $output"
+	while IFS='' read -r line; do
+		# Substitute environment variables formatted as ${var}
+		while [[ ${line} =~ (.*)(\$\{[][a-zA-Z0-9\.:_-]+\})(.*) ]]; do
+			line="${BASH_REMATCH[1]}$(eval echo "\"${BASH_REMATCH[2]}\"")${BASH_REMATCH[3]}"
+		done
+		printf "%s\n" "$line"
+	done < $file > $output
+done
+
