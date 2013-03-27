@@ -16,6 +16,10 @@ xterm:
 
 ![default scheme xterm preview](http://i.imgur.com/m2YFQep.png)
 
+vim:
+
+![default scheme vim preview](http://i.imgur.com/Bd03wj7.png)
+
 
 ## Usage
 
