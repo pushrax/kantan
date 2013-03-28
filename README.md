@@ -1,4 +1,4 @@
-![kantan](http://i.imgur.com/TH5pR3M.png)
+![kantan](http://i.imgur.com/s7YC0Vn.png)
 
 kantan is a way to make consistent 16-colour scheming simple. At its core is a tiny shell script that allows for templating of colour configuration files for whatever programs you use. It comes with templates for vim, Xresources and iTerm 2, but pull requests are welcome! kantan is inspired by [base16-builder](https://github.com/chriskempson/base16-builder) and derives some structure from it.
 
