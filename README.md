@@ -2,7 +2,7 @@
 
 kantan is a way to make consistent 16-colour scheming simple. At its core is a tiny shell script that allows for templating of colour configuration files for whatever programs you use. It comes with templates for vim, Xresources and iTerm 2, but pull requests are welcome! kantan is inspired by [base16-builder](https://github.com/chriskempson/base16-builder) and derives some structure from it.
 
-kantan doesn't trash the ANSI colour codes, making it work with your console programs by default. Bright green appearing as dark grey really sucks, and you don't always have control of colours in situations like connecting to a server over ssh. This makes it perfect for users who spend a lot of time in the terminal.
+kantan doesn't trash the ANSI colour codes, making it work with your console programs by default. Bright green appearing as dark grey really sucks, and you don't always have control of colours in situations like connecting to a server over ssh. This makes it perfect for users who run many console based programs or spend a lot of time in the terminal.
 
 kantan depends on bash and awk. That's it. This means that you don't have to install ruby or python on a newly provisioned server just to build your colour schemes; kantan works out of the box.
 
@@ -18,7 +18,7 @@ xterm on ArchLinux:
 
 ![default scheme xterm preview](http://i.imgur.com/m2YFQep.png)
 
-vim in iTerm on OS X:
+vim in iTerm 2 on OS X:
 
 ![default scheme vim preview](http://i.imgur.com/DQjRvsW.png)
 
@@ -36,7 +36,7 @@ To build all templates with a custom scheme:
     $ ./kantan /path/to/scheme/file
 
 
-If you use a git repository for your configuration dotfiles, integrating kantan is extremely easy. Just add kantan as a submodule, and modify your Makefile to tell kantan to build its templates. For an example, you can take a look at my [dotfiles repository](https://github.com/pushrax/dotfiles).
+If you use a git repository for your configuration dotfiles (highly recommended), integrating kantan is extremely easy. Just add kantan as a submodule, and modify your Makefile to tell kantan to build its templates. For an example, you can take a look at my [dotfiles repository](https://github.com/pushrax/dotfiles). Otherwise, you can just run kantan directly and copy or link the files it generates.
 
 
 ## Scheme format
