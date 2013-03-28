@@ -22,7 +22,7 @@ vim:
 
 ![default scheme vim preview](http://i.imgur.com/Bd03wj7.png)
 
-[The default WeeChat theme](http://i.imgur.com/hldrUzE.png), just coloured with kantan. No mucking about necessary.
+[The default WeeChat theme](http://i.imgur.com/1DNi3jd.png), just coloured with kantan. No mucking about necessary.
 
 
 ## Usage
