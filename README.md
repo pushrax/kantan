@@ -2,7 +2,7 @@
 
 kantan is a way to make consistent 16-colour scheming simple. At its core is a tiny shell script that allows for templating of colour configuration files for whatever programs you use. It comes with templates for vim, Xresources and iTerm 2, but pull requests are welcome! kantan is inspired by [base16-builder](https://github.com/chriskempson/base16-builder) and derives some structure from it.
 
-kantan doesn't trash the ANSI colour codes, making it work with your console programs by default. Bright green appearing as dark grey really sucks, and you don't always have control of colours in situations like connecting to a server over ssh.
+kantan doesn't trash the ANSI colour codes, making it work with your console programs by default. Bright green appearing as dark grey really sucks, and you don't always have control of colours in situations like connecting to a server over ssh. This makes it perfect for users who spend a lot of time in the terminal.
 
 kantan depends on bash and awk. That's it. This means that you don't have to install ruby or python on a newly provisioned server just to build your colour schemes; kantan works out of the box.
 
@@ -22,7 +22,7 @@ vim:
 
 ![default scheme vim preview](http://i.imgur.com/Bd03wj7.png)
 
-[Almost default WeeChat theme](http://i.imgur.com/CVfhpMF.png)
+[The default WeeChat theme](http://i.imgur.com/hldrUzE.png), just coloured with kantan. No mucking about necessary.
 
 
 ## Usage
