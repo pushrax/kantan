@@ -30,9 +30,9 @@ for i in "${!hex[@]}"; do
 	rgb_b[$i]=${rgb[2]}
 
 	# Generate srgb equivalents
-	srgb_r[$i]=$(awk -vx=${rgb_r[$i]} "BEGIN{printf(\"%.18f\", x/255.0)}")
-	srgb_g[$i]=$(awk -vx=${rgb_g[$i]} "BEGIN{printf(\"%.18f\", x/255.0)}")
-	srgb_b[$i]=$(awk -vx=${rgb_b[$i]} "BEGIN{printf(\"%.18f\", x/255.0)}")
+	srgb_r[$i]=$(awk -vx=${rgb[0]} "BEGIN{printf(\"%.18f\", x/255.0)}")
+	srgb_g[$i]=$(awk -vx=${rgb[1]} "BEGIN{printf(\"%.18f\", x/255.0)}")
+	srgb_b[$i]=$(awk -vx=${rgb[2]} "BEGIN{printf(\"%.18f\", x/255.0)}")
 done
 
 
