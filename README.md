@@ -14,13 +14,13 @@ Palette (there's a template for this image, palette.svg):
 
 ![default scheme palette preview](http://i.imgur.com/LUOXy3V.png)
 
-xterm:
+xterm on ArchLinux:
 
 ![default scheme xterm preview](http://i.imgur.com/m2YFQep.png)
 
-vim:
+vim in iTerm on OS X:
 
-![default scheme vim preview](http://i.imgur.com/Bd03wj7.png)
+![default scheme vim preview](http://i.imgur.com/DQjRvsW.png)
 
 [The default WeeChat theme](http://i.imgur.com/1DNi3jd.png), just coloured with kantan. No mucking about necessary.
 
