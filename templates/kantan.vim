@@ -75,7 +75,7 @@ if &background == "dark"
   call <SID>hi("Normal",        s:gui07, s:gui16, "07", "none", "")
   call <SID>hi("LineNr",        s:gui08, s:gui00, "08", "00", "")
   call <SID>hi("SpecialKey",    s:gui08, "", "08", "", "")
-  call <SID>hi("StatusLine",    s:gui07, s:gui08, "07", "08", "none")
+  call <SID>hi("StatusLine",    s:gui15, s:gui08, "15", "08", "none")
   call <SID>hi("StatusLineNC",  s:gui08, s:gui00, "08", "00", "none")
   call <SID>hi("VertSplit",     s:gui08, s:gui08, "08", "08", "none")
   call <SID>hi("ColorColumn",  "", s:gui00, "", "00", "none")
