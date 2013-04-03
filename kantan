@@ -3,7 +3,7 @@
 # Justin Li (http://j-li.net)
 # MIT licensed
 
-declare -A hex
+declare -a hex
 
 if [ -z "$1" ]; then
 	scheme="schemes/default"
@@ -19,7 +19,7 @@ else
 	exit
 fi	
 
-declare -A rgb_r rgb_b rgb_g srgb_r srgb_g srgb_b
+declare -a rgb_r rgb_b rgb_g srgb_r srgb_g srgb_b
 
 for i in "${!hex[@]}"; do
 	# Generate rgb equivalents
