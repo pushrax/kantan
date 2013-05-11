@@ -1,0 +1,27 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Default%20Settings]
+
+"Colour0"="${rgb_r[7]},${rgb_g[7]},${rgb_b[7]}"
+"Colour1"="${rgb_r[15]},${rgb_g[15]},${rgb_b[15]}"
+"Colour2"="${rgb_r[16]},${rgb_g[16]},${rgb_b[16]}"
+"Colour3"="${rgb_r[16]},${rgb_g[16]},${rgb_b[16]}"
+"Colour4"="${rgb_r[16]},${rgb_g[16]},${rgb_b[16]}"
+"Colour5"="${rgb_r[7]},${rgb_g[7]},${rgb_b[7]}"
+"Colour6"="${rgb_r[0]},${rgb_g[0]},${rgb_b[0]}"
+"Colour7"="${rgb_r[8]},${rgb_g[8]},${rgb_b[8]}"
+"Colour8"="${rgb_r[1]},${rgb_g[1]},${rgb_b[1]}"
+"Colour9"="${rgb_r[9]},${rgb_g[9]},${rgb_b[9]}"
+"Colour10"="${rgb_r[2]},${rgb_g[2]},${rgb_b[2]}"
+"Colour11"="${rgb_r[10]},${rgb_g[10]},${rgb_b[10]}"
+"Colour12"="${rgb_r[3]},${rgb_g[3]},${rgb_b[3]}"
+"Colour13"="${rgb_r[11]},${rgb_g[11]},${rgb_b[11]}"
+"Colour14"="${rgb_r[4]},${rgb_g[4]},${rgb_b[4]}"
+"Colour15"="${rgb_r[12]},${rgb_g[12]},${rgb_b[12]}"
+"Colour16"="${rgb_r[5]},${rgb_g[5]},${rgb_b[5]}"
+"Colour17"="${rgb_r[13]},${rgb_g[13]},${rgb_b[13]}"
+"Colour18"="${rgb_r[6]},${rgb_g[6]},${rgb_b[6]}"
+"Colour19"="${rgb_r[14]},${rgb_g[14]},${rgb_b[14]}"
+"Colour20"="${rgb_r[7]},${rgb_g[7]},${rgb_b[7]}"
+"Colour21"="${rgb_r[15]},${rgb_g[15]},${rgb_b[15]}"
+
