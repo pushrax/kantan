@@ -31,8 +31,6 @@ vim in iTerm 2 on OS X:
 
 ![default scheme vim preview](http://i.imgur.com/DQjRvsW.png)
 
-[The default WeeChat theme](http://i.imgur.com/1DNi3jd.png), just coloured with kantan. No mucking about necessary.
-
 
 ## Usage
 
