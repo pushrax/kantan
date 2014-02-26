@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<settings>
+	<console>
+		<colors>
+			<color id="0" r="${rgb_r[16]}" g="${rgb_g[16]}" b="${rgb_b[16]}"/>
+			<color id="1" r="${rgb_r[4]}" g="${rgb_g[4]}" b="${rgb_b[4]}"/>
+			<color id="2" r="${rgb_r[2]}" g="${rgb_g[2]}" b="${rgb_b[2]}"/>
+			<color id="3" r="${rgb_r[6]}" g="${rgb_g[6]}" b="${rgb_b[6]}"/>
+			<color id="4" r="${rgb_r[1]}" g="${rgb_g[1]}" b="${rgb_b[1]}"/>
+			<color id="5" r="${rgb_r[5]}" g="${rgb_g[5]}" b="${rgb_b[5]}"/>
+			<color id="6" r="${rgb_r[3]}" g="${rgb_g[3]}" b="${rgb_b[3]}"/>
+			<color id="7" r="${rgb_r[7]}" g="${rgb_g[7]}" b="${rgb_b[7]}"/>
+			<color id="8" r="${rgb_r[8]}" g="${rgb_g[8]}" b="${rgb_b[8]}"/>
+			<color id="9" r="${rgb_r[12]}" g="${rgb_g[12]}" b="${rgb_b[12]}"/>
+			<color id="10" r="${rgb_r[10]}" g="${rgb_g[10]}" b="${rgb_b[10]}"/>
+			<color id="11" r="${rgb_r[14]}" g="${rgb_g[14]}" b="${rgb_b[14]}"/>
+			<color id="12" r="${rgb_r[9]}" g="${rgb_g[9]}" b="${rgb_b[9]}"/>
+			<color id="13" r="${rgb_r[13]}" g="${rgb_g[13]}" b="${rgb_b[13]}"/>
+			<color id="14" r="${rgb_r[11]}" g="${rgb_g[11]}" b="${rgb_b[11]}"/>
+			<color id="15" r="${rgb_r[15]}" g="${rgb_g[15]}" b="${rgb_b[15]}"/>
+		</colors>
+	</console>
+</settings>
